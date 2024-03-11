@@ -3,7 +3,7 @@ name: publish package
 on:
     release:
       types:
-        - created
+        - "created"
 
 jobs:
     publish-pkg:
