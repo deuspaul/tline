@@ -2,10 +2,7 @@ name: publish package
 
 on:
     release:
-      types:
-        - "created"
-        - "unpublished"
-        - "published"
+      types: [ created, published, unpublished ]
 
 jobs:
     publish-pkg:
