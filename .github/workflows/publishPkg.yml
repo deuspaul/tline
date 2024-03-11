@@ -2,6 +2,7 @@ name: publish package
 
 on:
     release:
+      - "created"
 
 jobs:
     publish-pkg:
