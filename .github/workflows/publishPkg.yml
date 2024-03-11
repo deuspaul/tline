@@ -2,7 +2,6 @@ name: publish package
 
 on:
     release:
-      types: [ unpublished, published, created, released, edited ]
 
 jobs:
     publish-pkg:
