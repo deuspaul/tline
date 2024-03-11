@@ -2,7 +2,7 @@ name: publish package
 
 on:
     release:
-      - "created"
+      - created
 
 jobs:
     publish-pkg:
