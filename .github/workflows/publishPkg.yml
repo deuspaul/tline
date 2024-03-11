@@ -2,7 +2,8 @@ name: publish package
 
 on:
     release:
-      - created
+      types:
+        - created
 
 jobs:
     publish-pkg:
